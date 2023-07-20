@@ -1,0 +1,15 @@
+.footer {
+    background-color: #5F5C60;
+}
+
+.footer-title {
+    padding-top: 17px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.footer-subtitle {
+    text-align: center;
+    font-size: 12px;
+    padding-bottom: 17px;
+}

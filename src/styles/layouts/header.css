@@ -1,0 +1,39 @@
+.header {
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 365px;
+    padding-bottom: 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    width: 100px;
+    height: 30px;
+    text-decoration: none;
+    color: #111111;
+    line-height: 1.14;
+    letter-spacing: -0.28px;
+}
+
+
+.header-nav-list {
+    list-style: none;
+    display: flex;
+    gap: 24px;
+}
+
+.header-nav-link {
+    text-decoration: none;
+    color: #111111;
+    line-height: 1.14;
+    letter-spacing: -0.28px;
+    padding: 10px 5px;
+    transition: color 250ms linear;
+}
+
+.header-nav-link:hover,
+.header-nav-link:focus {
+    color: #FD9222;
+}

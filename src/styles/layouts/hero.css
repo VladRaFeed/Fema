@@ -1,0 +1,71 @@
+.hero {
+    padding-top: 52px;
+    padding-bottom: 101px;
+     background-color: #D8D0D0;
+}
+
+.hero-title {
+    text-align: center;
+    font-size: 36px;
+    letter-spacing: -0.18px;
+    margin-bottom: 41px;
+}
+
+.instruction-list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px 94px;
+    align-items: center;
+    justify-content: center;
+}
+
+.instruction-item {
+    background-color: #1E1823;
+    width: 321px;
+    height: 200px;
+    border-radius: 35px;
+}
+
+.instruction-item-title {
+    margin-top: 20px;
+    margin-left: 23px;
+    width: 258px;
+    height: 155px;
+    color: #fff;
+    font-size: 23px;
+    font-weight: 700;
+    letter-spacing: -0.115px;
+}
+
+.clip-svg {
+    width: 28px;
+    height: 25px;
+}
+
+.hero-link {
+    margin-top: 50px;
+    text-decoration: none;
+    color: #111;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 23px;
+    font-weight: 700;
+    letter-spacing: -0.115px;
+    transition: color 250ms linear, fill 250ms linear;
+}
+
+
+.hero-link:hover,
+.hero-link:focus {
+    color: #FD9222;
+    fill: #FD9222;
+}
+
+.link-svg {
+    width: 25px;
+    height: 30px;
+}

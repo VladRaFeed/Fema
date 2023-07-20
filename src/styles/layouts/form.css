@@ -1,0 +1,81 @@
+.form-section {
+    margin-top: 75px;
+}
+
+.form-main-wrapper{
+    padding-top: 29px;
+    padding-bottom: 38px;
+    border-radius: 50px;
+    background: #F1F1F1;
+    box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.10);
+}
+
+.form {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 33px;
+}
+
+.form-title {
+    margin-bottom: 33px;
+    font-size: 40px;
+    text-align: center;
+}
+
+.input-wrapp {
+    position: relative;
+}
+
+.form-input {
+    border: 1px solid #111;
+    border-radius: 20px;
+    box-shadow: 5px 10px 22px 0px rgba(0, 0, 0, 0.05);
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 80px;
+    width: 998px;
+}
+
+.form-input::placeholder {
+    color: #7C7C7C;
+}
+
+.input-svg {
+    position: absolute;
+    top: 14px;
+    left: 24px;
+    width: 40px;
+    height: 40px;
+}
+
+.date-inputs {
+    display: flex;
+    gap: 86px;
+}
+
+.date-input {
+    border: 1px solid #111;
+    border-radius: 20px;
+    box-shadow: 5px 10px 22px 0px rgba(0, 0, 0, 0.05);
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 80px;
+    width: 459px;
+}
+
+.date-input::placeholder {
+    color: #7C7C7C;
+}
+
+.form-submit-btn {
+    background-color: #0BBBC7;
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 32px;
+    font-weight: 600;
+    padding: 24px 140px;
+    text-transform: uppercase;
+}
